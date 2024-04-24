@@ -1,0 +1,9 @@
+<main>
+    <div class="container">
+        <h1>Our subscriber</h1>
+        <% offeredSubscriber.forEach(subscriber => { %>
+          <h5><%= subscriber.name %></h5>
+          <p>$<%= subscriber.email %></p>
+        <% }); %>
+      </div>
+</main>
